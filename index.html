@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" name="screen" id="screen_display">
+
+        <div class="buttons-container">
+            <button class="button" onclick="add_param('(')">(</button>
+            <button class="button" onclick="add_param(')')">)</button>
+            <button class="button" onclick="percentage()">%</button>
+            <button class="button" onclick="ac_btn()">AC</button>
+
+            <button class="button" onclick="add_param(7)">7</button>
+            <button class="button" onclick="add_param(8)">8</button>
+            <button class="button" onclick="add_param(9)">9</button>
+            <button class="button" onclick="add_param('/')">/</button>
+
+            <button class="button" onclick="add_param(4)">4</button>
+            <button class="button" onclick="add_param(5)">5</button>
+            <button class="button" onclick="add_param(6)">6</button>
+            <button class="button" onclick="add_param('*')">*</button>
+
+            <button class="button" onclick="add_param(1)">1</button>
+            <button class="button" onclick="add_param(2)">2</button>
+            <button class="button" onclick="add_param(3)">3</button>
+            <button class="button" onclick="add_param('-')">-</button>
+
+            <button class="button" onclick="add_param(0)">0</button>
+            <button class="button" onclick="add_param('.')">.</button>
+            <button class="button" onclick="calc()">=</button>
+            <button class="button" onclick="add_param('+')">+</button>
+        </div>
+    </div>
+</body>
+</html>
