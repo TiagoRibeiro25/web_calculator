@@ -13,5 +13,5 @@ function percentage() {
 }
 
 function ac_btn() {
-    document.querySelector("[name = 'screen'").value = ''
+    document.querySelector("[name = 'screen']").value = ''
 }
